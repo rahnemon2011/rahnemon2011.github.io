@@ -35,6 +35,7 @@ So this repository is the front door, and the other site repositories are rooms 
 | --- | --- |
 | `index.html` | Start page: one row per game with its links |
 | `app-ads.txt` | The AdMob seller line for all games. Must stay at the top level |
+| `cleverwick/` | One link for every device, <https://rahnemon2011.github.io/cleverwick/>: phones go to their store, computers see both buttons and a QR code. Use this one for sharing |
 | `cleverwick-site/` | The Cleverwick page (and the style sheet the start page shares) |
 | `icons/` | Game icons used on the start page |
 | `app-dashboard-privacy.html` | Privacy page for the private dashboard's Google login |
