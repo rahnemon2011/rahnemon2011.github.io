@@ -1,17 +1,33 @@
 # rahnemon2011.github.io
 
-The public developer website for the games by Hadi Mohammadi, served free by GitHub Pages at
-<https://rahnemon2011.github.io/>.
+This is Hadi Mohammadi's free public website on GitHub Pages: <https://rahnemon2011.github.io/>.
+It is the "developer website" for all of his apps and games.
 
 Everything in this repository is public. Nothing secret belongs here.
 
+## What the name means
+
+GitHub Pages is GitHub's free web hosting: it turns the files of a public repository into a website.
+
+- `github.io` is the address GitHub uses for all of these websites. Every account gets
+  `https://<account name>.github.io/`.
+- A repository named exactly `<account name>.github.io` is special. Each account can have only
+  **one**, and it is the only one whose files appear at the **top** of that address
+  (`https://rahnemon2011.github.io/app-ads.txt`).
+- Every other public repository can also be a website, as many as you like, all free. Those appear
+  one level down, under the repository's name: `https://rahnemon2011.github.io/arrowick-site/`.
+
+So this repository is the front door, and the other site repositories are rooms behind it.
+
 ## Why it exists
 
-- **AdMob needs it.** Google checks `app-ads.txt` on the developer website named in the store
-  listings. Without that file, ads in the games earn less or are not shown.
-- **The stores need it.** Google Play and the App Store ask for a developer website, and the
-  Google login for the private dashboard asks for a public privacy page.
-- **It costs nothing.** GitHub Pages is free for a public repository.
+- **AdMob needs a file at the top of the address.** Google looks for `app-ads.txt` directly under
+  the developer website named in the store listings. A site one level down cannot hold it, so it
+  has to be in this repository. Without the file, ads earn less or are not shown.
+- **The stores ask for one developer website** for the account, not one per app. This start page
+  lists every app and game with its links.
+- **The private dashboard's Google login asks for a public privacy page.** It lives here too.
+- **It costs nothing.**
 
 ## What is in here
 
@@ -24,7 +40,8 @@ Everything in this repository is public. Nothing secret belongs here.
 | `app-dashboard-privacy.html` | Privacy page for the private dashboard's Google login |
 | `.nojekyll` | Tells GitHub Pages to serve the files as they are |
 
-The pages of the other games live in their own repositories and appear under the same address:
+The pages of the other games live in their own repositories (ordinary ones, see above) and appear
+under the same address:
 [`/nookandcranny-site/`](https://rahnemon2011.github.io/nookandcranny-site/) and
 [`/arrowick-site/`](https://rahnemon2011.github.io/arrowick-site/).
 
@@ -46,6 +63,6 @@ The pages of the other games live in their own repositories and appear under the
 ## Do not
 
 - Do not rename, move or delete `app-ads.txt`.
-- Do not rename the repository: the address would change and the store listings and AdMob would
-  point to nothing.
+- Do not rename the repository: the name is what puts it at the top of the address. Renamed, the
+  store listings and AdMob would point to nothing.
 - Do not make the repository private: free GitHub Pages needs it public.
